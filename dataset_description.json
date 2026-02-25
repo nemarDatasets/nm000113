@@ -1,0 +1,20 @@
+{
+    "Name": "2020 BCI competition, track 3",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "derivative",
+    "Authors": [
+        "Pierre Guetschel"
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "MNE-BIDS",
+            "Version": "0.17.0",
+            "CodeURL": "https://mne.tools/mne-bids/"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "URL": "https://osf.io/pq7vb/overview"
+        }
+    ]
+}
