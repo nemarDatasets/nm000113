@@ -2,9 +2,13 @@
     "Name": "2020 BCI competition, track 3",
     "BIDSVersion": "1.7.0",
     "DatasetType": "derivative",
+    "License": "CC-BY-4.0",
     "Authors": [
-        "Pierre Guetschel"
+        "Seong-Whan Lee",
+        "Klaus-Robert Müller",
+        "José del R. Millán"
     ],
+    "Acknowledgements": "Pierre Guetschel updated the data to BIDS format.",
     "GeneratedBy": [
         {
             "Name": "MNE-BIDS",

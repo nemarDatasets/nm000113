@@ -144,6 +144,10 @@ def main(
     source_root = Path(source_root).expanduser()
     bids_root = Path(bids_root).expanduser()
 
+    if finalize_only:
+        _finalize_dataset(bids_root, overwrite=overwrite)
+        return
+    
     records, y_test = _get_records(source_root)
 
     # Add bids root:
@@ -154,10 +158,6 @@ def main(
     # sanity check: no duplicate bids paths
     bids_paths = [bids_path.fpath for _, bids_path in records]
     assert len(bids_paths) == len(set(bids_paths)), "Duplicate BIDS paths found"
-
-    if finalize_only:
-        _finalize_dataset(bids_root, overwrite=overwrite)
-        return
 
     std_list = []
     for source_path, bids_path in records:
@@ -224,8 +224,10 @@ def _finalize_dataset(bids_root: Path, overwrite: bool = False):
         source_datasets=[
             {"URL": "https://osf.io/pq7vb/overview"},
         ],
-        authors=["Pierre Guetschel"],
+        authors=["Seong-Whan Lee", "Klaus-Robert Müller", "José del R. Millán"],
+        acknowledgements="Pierre Guetschel updated the data to BIDS format.",
         overwrite=overwrite,
+        data_license="CC-BY-4.0",
     )
 
     # cleanup macos hidden files
