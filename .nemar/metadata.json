@@ -1,0 +1,81 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Seong-Whan Lee": {},
+    "Klaus-Robert Müller": {},
+    "José del R. Millán": {}
+  },
+  "title": "2020 BCI competition, track 3",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000113",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000113",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.82901/nemar.nm000113",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "sizes": [
+    "613.0 MB (46 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".py",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "The 2020 BCI Competition Track 3 dataset comprises EEG recordings from 15 subjects performing imagined speech tasks involving five distinct commands: 'Hello', 'Help me', 'Stop', 'Thank you', and 'Yes'. Designed for brain-computer interface research, the dataset includes 64-channel EEG recordings sampled at 256 Hz, organized into training, validation, and test sets with annotated trial onsets and durations. The data has been converted to BIDS-compliant EDF format with preserved channel montage information and temporal event markers for each imagined speech trial.",
+  "methods_description": "EEG signals were recorded from participants performing imagined speech tasks where subjects mentally articulated five different phrases without audible speech or overt mouth movements. Data were acquired using a 64-channel EEG system at 256 Hz sampling rate. The original MATLAB and HDF5 files were converted to BIDS-compliant EDF format, with EEG data scaled to Volts (multiplied by 1e-6). Epoched data were concatenated into continuous recordings with event annotations marking trial onsets and durations for each imagined speech command.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "imagined speech"
+    },
+    {
+      "term": "speech imagery"
+    },
+    {
+      "term": "signal classification"
+    },
+    {
+      "term": "neural decoding"
+    },
+    {
+      "term": "BCI competition"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "source_hash": "1ee37db450854a99d37d39666b05f7e0daa5d085987c938a219ac0291b2ed2dc"
+}
