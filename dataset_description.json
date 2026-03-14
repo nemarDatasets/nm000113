@@ -1,24 +1,25 @@
 {
-    "Name": "2020 BCI competition, track 3",
-    "BIDSVersion": "1.7.0",
-    "DatasetType": "derivative",
-    "License": "CC-BY-4.0",
-    "Authors": [
-        "Seong-Whan Lee",
-        "Klaus-Robert Müller",
-        "José del R. Millán"
-    ],
-    "Acknowledgements": "Pierre Guetschel updated the data to BIDS format.",
-    "GeneratedBy": [
-        {
-            "Name": "MNE-BIDS",
-            "Version": "0.17.0",
-            "CodeURL": "https://mne.tools/mne-bids/"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "URL": "https://osf.io/pq7vb/overview"
-        }
-    ]
+  "Name": "2020 BCI competition, track 3",
+  "BIDSVersion": "1.7.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Seong-Whan Lee",
+    "Klaus-Robert Müller",
+    "José del R. Millán"
+  ],
+  "Acknowledgements": "Pierre Guetschel updated the data to BIDS format.",
+  "GeneratedBy": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.17.0",
+      "CodeURL": "https://mne.tools/mne-bids/"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://osf.io/pq7vb/overview"
+    }
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000113"
 }
