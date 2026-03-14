@@ -62,7 +62,7 @@
       "term": "imagined speech"
     },
     {
-      "term": "speech imagery"
+      "term": "motor imagery"
     },
     {
       "term": "signal classification"
@@ -74,10 +74,13 @@
       "term": "BCI competition"
     },
     {
-      "term": "motor imagery"
+      "term": "speech decoding"
     },
     {
       "term": "BIDS"
+    },
+    {
+      "term": "benchmark"
     }
   ],
   "source_hash": "1ee37db450854a99d37d39666b05f7e0daa5d085987c938a219ac0291b2ed2dc"
